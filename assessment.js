@@ -4,6 +4,7 @@
 
 
 // #2 Use the variable iLove to create a new variable called iLoveCode that is assigned the string "I love code"
+var iLove = 'I love';
 
 
 
