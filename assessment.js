@@ -110,13 +110,22 @@ function removeItem(arr, str) {
 
 // #11 Write a function  called doubleTheFun that takes 1 parameter. It should double numbers, and
 // repeats strings. example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
+//
+// function doubleTheFun(param) {
+// 	if (Number.isFinite(param)) {
+// 		return param + param;
+// 	// } else if (param === str) {
+// 	// 	return param +
+// 		}
 
-function doubleTheFun(param) {
-	if (Number.isFinite(param)) {
-		return param + param;
-	// } else if (param === str) {
-	// 	return param +
-		}
+
+		function doubleTheFun(para){
+	    if( Number(para) ){
+	        return Number(para)*2
+	    }
+	    else{
+	        return para+para
+	    }
 	}
 
 
