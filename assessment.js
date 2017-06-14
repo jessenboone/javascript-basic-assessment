@@ -1,7 +1,7 @@
 
 // #1 Create a variable called hello and assign it the string 'goodbye'
 
-
+var hello = 'goodbye';
 
 // #2 Use the variable iLove to create a new variable called iLoveCode that is assigned the string "I love code"
 var iLove = 'I love';
@@ -51,12 +51,11 @@ var snake = {
 };
 
 
-
 //#7 Create an array of strings that are the 7 primary colors in the rainbow -
 // red, orange, yellow, green, blue, indigo, violet (lower-case). Call your array rainbowColors
 
 // #8 Using this array do the following
-
+var heroes = ['superman', 'batman', 'flash'];
 // add 'wonderwoman' to the end
 
 // remove 'superman' and store him in a variable called firstHero
@@ -80,8 +79,11 @@ var snake = {
 // The order of the array should not be changed
 
 
+
+
 // #11 Write a function  called doubleTheFun that takes 1 parameter. It should double numbers, and
 // repeats strings. example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
+
 
 
 
@@ -101,7 +103,6 @@ var snake = {
 // #14 Create a function called coderTest that takes in an object that is a person. It looks to see if the person’s
 // name is Jeremy and then changes the person object to have a property called lovesCode with a value of 10.  If their
 // name is Brack set lovesCode to 0.  otherwise set lovesCode to 5.
-
 
 
 // #15 Create a function called outside that takes in a temperature (number), a humidity(number), and a
