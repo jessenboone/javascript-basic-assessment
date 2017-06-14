@@ -19,7 +19,10 @@ var iLove = 'I love';
 
 
 // #4 Change my shirt color to pink using dot notation
-
+var myShirt = {
+	type: 'polo',
+	color: 'red'
+};
 
 
 // Change my shirt type to spandex using square bracket notation
@@ -28,7 +31,10 @@ var iLove = 'I love';
 // #5 Create an object that tracks a count of animals in a zoo.  Call it 'zoo'
 // The key should be the animal name(string) and the value should be how many there are.
 // Our zoo has 8 monkeys, 4 giraffes and 2 elephants
-
+var myOtherShirt = {
+	type: 'polo',
+	color: 'red'
+};
 
 
 // #6 Loop through this object and change all keys that start with the letter s to have a value of 's'
